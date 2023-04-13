@@ -1,32 +1,36 @@
-// nn1
-console.log(Number.parseInt("5px"));
-console.log(Number.parseInt("12djd334"));
-console.log(Number.parseInt("12.45asdwe12"));
-console.log(Number.parseInt("qwqweeewq"));
+
+// nnn1
+const prisePerItem = 3500;
+const orderGuantitu = 4;
+const totalPrrise = (prisePerItem * orderGuantitu);
+console.log(totalPrrise);
 
 
-
-// nn2
-console.log(Number.parseFloat("5px"));
-console.log(Number.parseFloat("12djd334"));
-console.log(Number.parseFloat("12.45asdwe12"));
-console.log(Number.parseFloat("qwqweeewq"));
+// nnn2
+const pased = prompt("Скільки вам років?");
+const isAduse = pased > 18 && pased === 18;
+console.log(isAduse);
 
 
-// nn3
-const max = Math.max(2, 34, 99, 3, 22, 36, 733, 18);
-console.log(max);
+// nnn3
 
-const min = Math.min(2, 34, 99, 3, 22, 36, 733, 18);
-console.log(min);
+const SAVED_PASSWORD = "gt4090";
+const passwordSeve = promp("Введіть пароль");
+const isMath = SAVED_PASSWORD === passwordSeve;
+console.log(isMath);
 
-// nn4
-const ran1 = 0;
-const ran2 = 20;
-const randoms = Math.random() * (ran2 - ran1) + ran1;
-console.log(randoms);
+// nnn4
 
+let a = 5;
+let b = 10;
+let c = 15;
+let d = 20;
 
-
-
-
+a = a += 2;
+b = b -= 4;
+c = c *= 3;
+d = d /= 10;
+console.log(a); 
+console.log(b); 
+console.log(c); 
+console.log(d); 
