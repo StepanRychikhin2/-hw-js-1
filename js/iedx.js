@@ -1,36 +1,70 @@
-
-// nnn1
-const prisePerItem = 3500;
-const orderGuantitu = 4;
-const totalPrrise = (prisePerItem * orderGuantitu);
-console.log(totalPrrise);
-
-
-// nnn2
-const pased = prompt("Скільки вам років?");
-const isAduse = pased > 18 && pased === 18;
-console.log(isAduse);
+// ЬЬ1
+const emeil ="linnikadd@gmail.com";
+const provsrca1 = "@";
+const provsrcaemail = "email";
+const oma = emeil.length;
+console.log(emeil.includes(provsrca1));
+console.log(emeil.includes(provsrcaemail));
+console.log(oma);
 
 
-// nnn3
 
-const SAVED_PASSWORD = "gt4090";
-const passwordSeve = promp("Введіть пароль");
-const isMath = SAVED_PASSWORD === passwordSeve;
-console.log(isMath);
 
-// nnn4
+// ЬЬ2
+const Myyy = "My";
+const nameeee = "name";
+const isssss = "is";
+const fullName =  Myyy +  " "  + nameeee + " " +  isssss  + " " + "Victor";
+console.log(fullName);
 
-let a = 5;
-let b = 10;
-let c = 15;
-let d = 20;
+// ЬЬ3
+const userName = "Stepan";
+const payment = 100;
+const rrr = alert(`Дякуємо, ${userName} До сплати ${payment} гривень`);
+// ЬЬ4
+let meName = "Stepan";
+const ralase = "@";
+const relesee = meName.replace("S","@");
+console.log(relesee);
 
-a = a += 2;
-b = b -= 4;
-c = c *= 3;
-d = d /= 10;
-console.log(a); 
-console.log(b); 
-console.log(c); 
-console.log(d); 
+// ЬЬ5
+const nemeMe = "Степан Ричіхін";
+const checneme = nemeMe.indexOf(" ");
+console.log(checneme);
+
+// ЬЬ6
+let nile = "ТУТ ЗАРА БУДУ 10 НУЛІВ";
+nile = nile.padEnd(32, "0");
+console.log(nile);
+const enile = nile.length;
+console.log(enile);
+
+// ЬЬ7
+const  result = 5+5+"5";
+console.log(result);
+// ЬЬ8
+const productName = "Droid";
+const pricePerItem = 3500;
+const message = `You picked ${productName}, price per item is ${pricePerItem} credits`;
+
+// ЬЬ9
+const pricePerDroid = 800;
+const orderedQuantity = 6;
+const deliveryFee = 50;
+const totalPrice = pricePerDroid * orderedQuantity + deliveryFee;
+const infomessage = `You ordered droids worth ${totalPrice} credits. Delivery (${deliveryFee} credits) is included in total price.`;
+console.log(infomessage);
+// ЬЬ10
+const courseTopic = "JavaScript essentials";
+const courseTopicLength = courseTopic.length;
+const firstElement = courseTopic[0];
+const lastElement = courseTopic[courseTopicLength - 1];
+console.log(courseTopic);
+console.log(courseTopicLength);
+console.log(firstElement);
+console.log(lastElement);
+// ЬЬ11
+const string = "promocode Pro22812";
+const length = 9;
+const sudddd = string.slice(0, length);
+console.log(sudddd);
