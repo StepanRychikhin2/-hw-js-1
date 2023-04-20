@@ -11,10 +11,10 @@ console.log(oma);
 
 
 // ЬЬ2
-const Myyy = "My";
+const myyy = "My";
 const nameeee = "name";
 const isssss = "is";
-const fullName =  Myyy +  " "  + nameeee + " " +  isssss  + " " + "Victor";
+const fullName =  myyy +  " "  + nameeee + " " +  isssss  + " " + "Victor";
 console.log(fullName);
 
 // ЬЬ3
