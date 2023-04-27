@@ -21,7 +21,13 @@ if (point === "ECMAScript") {
 const x1 = 10;
 const x2 = 30;
 const number = 45;
-
+if(number < x1){
+    alert("Менше 10");
+} else if (number > x2){
+    alert("Більше 30");
+} else if (number > x1 && number < x2){
+    alert("Входить");
+}
 
 
 
@@ -40,9 +46,7 @@ if(isFriend && isOnline && isDnd === true){
 }
 
 
-// ДД5
-
-
+// // ДД5
 
 const free = 0;
 const pro = 10;
@@ -60,7 +64,8 @@ alert("Ти не маєш доступу");
 
 
 
-// ДД6
+// // ДД6
+
 const hmmm = prompt("Діапазон 55-99");
 const min = 54;
 const max = 100;
@@ -73,16 +78,36 @@ alert("Число потрапляє в діапазон");
 
 
 
-// ДД7
+// // ДД7
+// const dets = діти(0-16);
+// const dorols = дорослі(17-60);
+// const pensioners = пенсіонери(61-100);
 
 
 
-// ДД8
+// // ДД8
+const meName = "Stepan";
+const meneNeme = "Rychikhin";
+const meNameage = meName.length;
+const meneNemeage = meneNeme.length;
+if(meNameage > 4 && meneNemeage > 5){
+alert(meNameage + meneNemeage);
+} else {
+ alert("ОЙ, неможливо виконати умову"); 
+}
 
-
-
-// ДД9
-
+// // ДД9
+let result;
+const a = 1;
+const b = 2;
+const resulseUn = a + b > 4 ? 'Вище' : 'Нижче';
+if (a + b < 4) {
+ result = 'Нижче';
+} else {
+ result = 'Вище';
+}
+console.log(result);
+console.log(resulseUn);
 
 
 // ДД10
@@ -90,4 +115,4 @@ if ("0") {
     console.log( 'Привіт');
    }
 
-// ДД11
+// // ДД11
