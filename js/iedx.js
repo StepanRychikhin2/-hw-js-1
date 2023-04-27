@@ -48,17 +48,17 @@ if(isFriend && isOnline && isDnd === true){
 
 // // ДД5
 
-const free = 0;
-const pro = 10;
-const vip = 50;
-const mestatus = 1;
-if(mestatus >= vip){
+const free = "free";
+const pro = "pro";
+const vip = "vip";
+const mestatus = "pro";
+if(mestatus >= "vip"){
     alert("Вітаю ти vip ти маєш доступ");
 }
-else if (mestatus >= pro){
+else if (mestatus >= "pro"){
     alert("Вітаю ти pro ти маєш доступ");
 }
-else if (mestatus >= free){
+else if (mestatus >= "free"){
 alert("Ти не маєш доступу");
 }
 
@@ -78,14 +78,21 @@ alert("Число потрапляє в діапазон");
 
 
 
-// // ДД7
-// const dets = діти(0-16);
-// const dorols = дорослі(17-60);
-// const pensioners = пенсіонери(61-100);
+// // // ДД7
+const dets = 0-16;
+const dorols = 17-60;
+const pensioners = 61-100;
+const maxx = 55;
+if (maxx > 0 && maxx < 16){
+    alert("ТИ ДИТИНА");
+} else if (maxx > 17 && maxx < 60){
+    alert("ТИ ДОРОСЛИЙ");
+}else if (maxx > 61 && maxx < 100){
+    alert("ТИ ПЕНСІОНЕР");
+}
 
 
-
-// // ДД8
+// // // ДД8
 const meName = "Stepan";
 const meneNeme = "Rychikhin";
 const meNameage = meName.length;
@@ -96,7 +103,7 @@ alert(meNameage + meneNemeage);
  alert("ОЙ, неможливо виконати умову"); 
 }
 
-// // ДД9
+// // // ДД9
 let result;
 const a = 1;
 const b = 2;
@@ -116,3 +123,20 @@ if ("0") {
    }
 
 // // ДД11
+const ran2 = 0;
+const ran1 = 5;
+const randoms = Math.random() * (ran2 - ran1) + ran1;
+const parseIntt = parseInt(randoms);
+console.log(parseIntt);
+if (parseIntt === 1){
+    alert("Я думаю 1 угадав?");
+}else if (parseIntt === 2){
+    alert("Я думаю 2 угадав?");
+}else if (parseIntt === 3){
+    alert("Я думаю 3 угадав?");
+}else if (parseIntt === 4){
+    alert("Я думаю 4 угадав?");
+}else if (parseIntt === 5){
+    alert("Я думаю 5 угадав?");
+}
+console.log(randoms);
