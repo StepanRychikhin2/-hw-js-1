@@ -7,7 +7,7 @@ console.log(mas1);
 let mas2 = ["Привіт", "Helo", "hi"];
 mas2[3] = "hahaha";
 console.log(mas2);
-mas3
+
 
 
 
