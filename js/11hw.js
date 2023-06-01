@@ -73,12 +73,59 @@
 
 
 // fohh4
+// const formatString = function (string) {
+//    if(string < 40){
+//     string = string.padEnd(40, "...");
+//     console.log(string);
+//    } 
+//    return string;
+//   };
+
+//   /*
+//    * Виклич функції для перевірки працездатності твоєї реалізації.
+//    */
+//   console.log(formatString('Curabitur ligula sapien, tincidunt non.'));
+//   // повернеться оригінальний рядок
+  
+//   console.log(formatString('Vestibulum facilisis, purus nec pulvinar iaculis.'));
+//   // повернеться форматований рядок
+  
+//   console.log(formatString('Curabitur ligula sapien.'));
+//   // повернеться оригінальний рядок
+  
+//   console.log(
+//     formatString(
+//       'Nunc sed turpis. Curabitur a felis in nunc fringilla tristique.',
+//     ),
+//   );
 
 
-
+  
 
 // fohh5
+// const checkForSpam = function (message) {
+//     const word1 = "sale";
+//     const word2 = "spam";
+//     console.log(message.includes(word1));
+//     console.log(message.includes(word2));
+//   };
 
+//   /*
+//    * Викличи функції для перевірки працездатності твоєї реалізації.
+//    */
+//   console.log(checkForSpam('Latest technology news')); // false
+  
+//   console.log(checkForSpam('JavaScript weekly newsletter')); // false
+  
+//   console.log(checkForSpam('Get best sale offers now!')); // true
+  
+//   console.log(checkForSpam('[SPAM] How to earn fast money?')); // true
 
 
 // fohh6
+const input = prompt("Введи чисоло");
+const numbers = [];
+let total = 0;
+numbers.push(input);
+console.log(numbers);
+
