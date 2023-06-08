@@ -13,13 +13,9 @@
 // fohh2
 
 // const calculateEngravingPrice = function (message, pricePerWord) {
-//     // console.log(message.split(" ")); 
-//     const mass = message.split(" ");;
-//     const massLength = mass.length;
-//     // console.log(massLength);
-//     const totalPrise = massLength.length * pricePerWord;
+//     const mass = message.split(" ");
+//     const totalPrise = mass.length * pricePerWord;
 //     console.log(totalPrise);
-
 //   };
   
 //   /*
@@ -75,11 +71,12 @@
 // fohh4
 // const formatString = function (string) {
 //    if(string < 40){
-//     string = string.padEnd(40, "...");
-//     console.log(string);
-//    } 
-//    return string;
-//   };
+//     return string;
+//    } else{
+//     const srongi = string.slice(0, 40) + "...";
+//     return srongi;
+//    }
+// };
 
 //   /*
 //    * Виклич функції для перевірки працездатності твоєї реалізації.
@@ -123,9 +120,25 @@
 
 
 // fohh6
-const input = prompt("Введи чисоло");
-const numbers = [];
-let total = 0;
-numbers.push(input);
-console.log(numbers);
+// let input = prompt("Введи чисоло");
+// const numbers = [];
+// let total = 0;
+
+// do {
+//   input = prompt("Введи чисоло", "");
+// if((Number.isNaN(input))){
+//     continue;
+// } else if(input !== null){
+//     break;
+// } else{
+//     break;
+// }
+
+// //   numbers.push(input);
+// } while (input !== null);
+
+// console.log(numbers);
+// console.log(input);
+
+
 
