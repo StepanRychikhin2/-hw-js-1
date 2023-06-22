@@ -1,17 +1,17 @@
 // завдання-1
-function makePizza() {
+// function makePizza() {
 
-    return "Your pizza is being prepared, please wait.";
+//     return "Your pizza is being prepared, please wait.";
 
-}
+// }
 
-// Change code below this line
+// // Change code below this line
 
 
-const result = null;
-const res = result.push(makePizza);
-const pointer = null;
-console.log(result);
+// const result = null;
+// const res = result.push(makePizza);
+// const pointer = null;
+// console.log(result);
 
 // завдання-2
 // function deliverPizza(pizzaName) {
@@ -71,17 +71,16 @@ console.log(result);
 
 
 // завдання-5
+// let rety = 0;
 // const buttonData = document.querySelector("[button-data2]");
 // buttonData.addEventListener("click", showInfo);
-// function showInfo(rety) {
+// function showInfo2() {
+//     rety + 1;
+// }
+// function showInfo() {
 
 //     console.log("Hello World!", rety);
-//     function showInfo2() {
-//         let rety = 0;
-//         for (let i = 0; i < 999; i++) {
-//             rety + i;
-//         }
-//     }
+    
 // }
 
 
