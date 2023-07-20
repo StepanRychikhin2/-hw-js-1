@@ -22,28 +22,28 @@
 
 // soft-3
 
-function findBestEmployee(employees) {
-    let totalSelari = employees.stepan;
- const keys = Object.keys(employees);
-    for(const emp of keys){
+// function findBestEmployee(employees) {
+//     let totalSelari = employees.stepan;
+//  const keys = Object.keys(employees);
+//     for(const emp of keys){
     
-if(totalSelari < emp){
-continue;
-} else {
-totalSelari = emp;
-}
+// if(totalSelari < emp){
+// continue;
+// } else {
+// totalSelari = emp;
+// }
 
-    } 
+//     } 
     
     
-    return totalSelari;
-}
-const worcsUsers = {
-    stepan: 45,
-    Volodi: 67,
-    Pro: 100,
-};
-console.log(findBestEmployee(worcsUsers));
+//     return totalSelari;
+// }
+// const worcsUsers = {
+//     stepan: 45,
+//     Volodi: 67,
+//     Pro: 100,
+// };
+// console.log(findBestEmployee(worcsUsers));
 
 
 // soft-4
@@ -120,9 +120,9 @@ console.log(findBestEmployee(worcsUsers));
 
 
 // soft-hw-banc
-const acaunt = {
-  muBalanse: 34000,
-};
+// const acaunt = {
+//   muBalanse: 34000,
+// };
 
 
 
