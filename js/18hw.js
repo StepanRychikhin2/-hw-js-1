@@ -99,8 +99,72 @@
 // console.log(isActive1);
 // const isActive2 = users.filter(userss => userss.isActive === false);
 // console.log(isActive2);
+
+
+
 // hw-5
-
-
+const users = {
+    user: {
+        name: "Stepan",
+        email: "amailStepan@gmail.com",
+    },
+    user: {
+        name: "Max",
+        email: "amailMax@gmail.com",
+    },
+    user: {
+        name: "Tolik",
+        email: "amailTolik@gmail.com",
+    }
+};
+const email = users.filter(emails => emails.email === "amailTolik@gmail.com");
+console.log(email);
 
 // hw-6
+// const max = 20;
+// const min = 10;
+// const users = [
+//     {
+//         name: "Stepania",
+//         age: 14,
+//         eyeColor: "Bly",
+//         gender: "wumen",
+//         isActive: true,
+//     },
+//     {
+//         name: "Toliksia",
+//         age: 3,
+//         eyeColor: "Red",
+//         gender: "wumen",
+//         isActive: true,
+//     },
+//     {
+//         name: "Max",
+//         age: 78,
+//         eyeColor: "Blaud",
+//         gender: "man",
+//         isActive: false,
+//     },
+//     {
+//         name: "Nadia",
+//         age: 18,
+//         eyeColor: "Red",
+//         gender: "wumen",
+//         isActive: false,
+//     },
+// ];
+
+// const age = users.filter(
+//     ({ age }) => age >= min && age < max
+//   );
+//   console.log(age);
+
+
+
+
+
+
+
+
+
+
