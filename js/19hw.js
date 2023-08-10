@@ -1,7 +1,7 @@
 // womeworcs-1
 // Напишіть функцію, яка отримує масив рядків і повертає новий масив, в якому кожен 
 // з рядків складається з першої та останньої букви відповідної строки вхідного масиву.
-const array2 = ['apple', 'banana', 'orange', 'banana', 'grape', 'apple', 'kiwi'];
+// const array2 = ['apple', 'banana', 'orange', 'banana', 'grape', 'apple', 'kiwi'];
 
 
 // womeworcs-2
