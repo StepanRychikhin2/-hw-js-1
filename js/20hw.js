@@ -54,24 +54,24 @@
 
 
 // homeworc-3
-// const frend = [
-//     { name: "Tom", frends: 4, },
-//     { name: "Tolik", frends: 10, },
-//     { name: "Stepan", frends: 5, },
-//     { name: "Tom2", frends: 7, },
-// ];
+const frend = [
+    { name: "Tom", frends: 4, },
+    { name: "Tolik", frends: 10, },
+    { name: "Stepan", frends: 5, },
+    { name: "Tom2", frends: 7, },
+];
 
-// const frends = frend.sort(
-//     (firfstName, frend) => firfstName.frends - frend.frends
-// );
-// console.log(frends);
+const frends = frend.sort(
+    (firfstName, frend) => firfstName.frends - frend.frends
+);
+console.log(frends);
 
-// const nameMe = frends.reduce((totalName, { name }) => {
-//     totalName.push(name);
+const nameMe = frends.reduce((totalName, { name }) => {
+    totalName.push(name);
 
-// return totalName;
-// }, []);
-// console.log(nameMe);
+return totalName;
+}, []);
+console.log(nameMe);
 
 // homeworc-4
 // const topBalance = [
