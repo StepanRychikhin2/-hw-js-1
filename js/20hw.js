@@ -19,37 +19,37 @@
 
 
 // homeworc-2
-// const topFrend = [
-//     {
-//         name: "Tom",
-//         balance: 200,
-//         frendsName: "Toliks",
-//     },
-//     {
-//         name: "Tolik",
-//         balance: 300,
-//         frendsName: "Stepans",
-//     },
-//     {
-//         name: "Stepan",
-//         balance: 500,
-//         frendsName: "Toms",
-//     },
-//     {
-//         name: "Tom2",
-//         balance: 1000,
-//         frendsName: "Toms",
-//     },
-// ];
+const topFrend = [
+    {
+        name: "Tom",
+        balance: 200,
+        frendsName: "Toliks",
+    },
+    {
+        name: "Tolik",
+        balance: 300,
+        frendsName: "Stepans",
+    },
+    {
+        name: "Stepan",
+        balance: 500,
+        frendsName: "Toms",
+    },
+    {
+        name: "Tom2",
+        balance: 1000,
+        frendsName: "Toms",
+    },
+];
 
-// const frendName = topFrend.reduce((totalFrend, {frendsName, name}) => {  
-// if (frendsName === "Toms") {
-//     totalFrend.push(name);
-// } 
-// return totalFrend;
-//      }, []);
+const frendName = topFrend.reduce((totalFrend, {frendsName, name}) => {  
+if (frendsName === "Toms") {
+    totalFrend.push(name);
+} 
+return totalFrend;
+     }, []);
 
-// console.log(frendName);
+console.log(frendName);
 
 
 
