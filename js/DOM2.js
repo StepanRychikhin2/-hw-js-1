@@ -32,9 +32,9 @@
 // console.log(adres);
 
 // worc-4
-const list = document.body.querySelector(".item");
+// const list = document.body.querySelector(".item");
 
-list.firstChild.textContent = "pro" ;
-console.log(list);
+// list.firstChild.textContent = "pro" ;
+// console.log(list);
 
 
