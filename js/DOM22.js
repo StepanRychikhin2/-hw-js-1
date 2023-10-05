@@ -94,27 +94,27 @@
 
 // WORC_4
 
-const buttton1 = document.querySelector(".decrement");
-const buttton2 = document.querySelector(".increment");
-const value = document.querySelector(".value");
-let keypressCounter = 0;
-value.textContent = keypressCounter;
+// const buttton1 = document.querySelector(".decrement");
+// const buttton2 = document.querySelector(".increment");
+// const value = document.querySelector(".value");
+// let keypressCounter = 0;
+// value.textContent = keypressCounter;
 
-buttton2.addEventListener("click", ClickPlus1);
-buttton1.addEventListener("click", ClickMinus1);
-function ClickPlus1() {
-    keypressCounter +=  1;
-    value.textContent  = keypressCounter;
-}
+// buttton2.addEventListener("click", ClickPlus1);
+// buttton1.addEventListener("click", ClickMinus1);
+// function ClickPlus1() {
+//     keypressCounter +=  1;
+//     value.textContent  = keypressCounter;
+// }
 
 
-function ClickMinus1() {
-    keypressCounter -=  1;
-    value.textContent  = keypressCounter;
-}
+// function ClickMinus1() {
+//     keypressCounter -=  1;
+//     value.textContent  = keypressCounter;
+// }
 
-console.log(buttton2);
-console.log(value);
+// console.log(buttton2);
+// console.log(value);
 
 
 
