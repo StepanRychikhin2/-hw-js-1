@@ -17,6 +17,10 @@
 // function openModel() {
 //     document.body.classList.add("show-modal");
 // }
+
+
+
+
 // WORC-2
 // const divButtonModal = document.querySelector(`div[data-action="div-modal"]`);
 
@@ -25,6 +29,8 @@
 // function closeModeldiv() {
 //     document.body.classList.remove("show-modal");
 // }
+
+
 
 
 // WORC-3
@@ -51,6 +57,10 @@
     
 // }
 
+
+
+
+
 // WORC-4
 // const input = document.querySelector("[data-input]");
 // const span = document.querySelector("[data-span]");
@@ -62,16 +72,40 @@
 
 
 // input.addEventListener("input", (event) => {
-//     span.textContent = event.currentTarget.value;
+//     if (event.currentTarget.value === "") {
+//         span.textContent = "Незнайомець"
+//     } else {
+//         span.textContent = event.currentTarget.value;
+//     }
+    
+    
+    
 //   });
 
 
 
-// WORC-4
-// const input = document.querySelector("[data-input2]");
-// const inputLenth = input.length;
 
-// input.addEventListener("input", maxLenhtf)
+
+
+// WORC-5
+// const inputlength = document.querySelector("[data-length]");
+
+// // const inputLenth = input.length;
+
+// // input.addEventListener("blur", maxLenhtf)
+
+
+// inputlength.addEventListener("blur", () => {
+// if (inputlength.value.length > 6) {
+//     input.classList.add("invalid")
+//     input.classList.remove("valid")
+// } else {
+//     input.classList.add("valid")
+//     input.classList.remove("invalid")
+// }
+// })
+
+
 
 // function maxLenhtf() {
 //     if (inputLenth < 6) {
@@ -94,10 +128,17 @@
 // }
 
 
-// WORC-4
+// WORC-6
+// const inputLentht = document.querySelector("[data-input]");
+// const size = document.querySelector("[data-input-size]");
+// const span = document.querySelector("[data-span]");
+// const spanText = span.textContent;
+// console.log(spanText);
+// console.log(size);
 
-
-
+// size.addEventListener("input", (e) => {
+//     spanText.style.fontsize = `${e.currentTarget.value} px`
+// })
 
 
 
