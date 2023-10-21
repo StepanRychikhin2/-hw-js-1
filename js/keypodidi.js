@@ -1,34 +1,41 @@
-// const gallery = document.querySelector(".gallery");
-// const gallereyLi = gallery.querySelectorAll("li");
-// const imege = document.querySelectorAll("img");
-// console.log(gallery);
-// console.log(gallereyLi);
-// console.log(imege);
+const gallery = document.querySelector(".gallery");
+const gallereyLi = gallery.querySelectorAll("li");
+const image = document.querySelectorAll(".image");
+console.log(gallery);
+console.log(gallereyLi);
+console.log(image);
 
 
 
-
-
-// for (let i = 0; i < gallereyLi.length; i++) {
-//         const oneli = gallereyLi[i];
-//         document.addEventListener("keypdown", (e) => {
-//             if (e.key === "ArrowLeft") {
-//                 i + 1;
-//                 console.log(e.key);
-//                 } else if (e.key === "ArrowRight") {
-//                     i - 1;
-//                 }
+for (let i = 0; i < image.length; i++) {
+        const oneli = image[i];
+        document.addEventListener("keydown", (e) => {
+            if (e.code === "ArrowLeft") {
+                 i--;
+                 oneli.classList.toggle("full-image-container")
+                 oneli.classList.toggle("full-image")
+                console.log(e.code);
+                } else if (e.code === "ArrowRight") {
+                    i++;
+                    oneli.classList.toggle("full-image-container")
+                 oneli.classList.toggle("full-image")
+                } else {
+                    console.log("error");
+                }
     
-//         })
-//         oneli.addEventListener("click", () => {
-//             oneli.classList.toggle("full-image-container")
-//             imege[i].classList.toggle("full-image")
-//         })
+        })
+        oneli.addEventListener("click", () => {
+            oneli.classList.toggle("full-image-container")
+            oneli.classList.toggle("full-image")
+        })
         
         
-//     }
+    }
 
 
+
+
+// WORC-2
 
 // const button1 = document.querySelector("[data-action1]");
 // const button2 = document.querySelector("[data-action]");
